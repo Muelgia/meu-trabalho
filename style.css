@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    text-align: center;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: #053a42;
+    color: white;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+}
+
+.imagem_minha{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 10%;
+    
+}
+
+.principal{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #053a42;
+    color: white;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    columns: #506e6a;
+}
+
+a, a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #074851 1px;
+    background-color: #053a42;
+    color: whitesmoke;
+}
+
+.titulo_1{
+    border: solid #053a42;
+
+}
+
+li{
+    float: left;
+}
+
+a:hover{
+    background-color: #506e6a;
+    color: white;
+}
+
+.exemplos{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.lista{
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+
+
+@media only screen and (max-width: 767px){
+    .wrapper{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+
+    .imagem_eu{
+        grid-column-start: 1;
+        grid-column-end: 1;
+}
+    
+    .principal{
+        grid-column-start: 1;
+        grid-column-end: 1;
+}
+}
